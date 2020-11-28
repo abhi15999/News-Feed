@@ -6,13 +6,13 @@ import {
 
 } from 'react-native';
 
+import TabScreen from './screens/TabScreen'
+
 
 const App =()=> {
   return (
     <>
-      <View>
-        <Text> Hi</Text>
-      </View>
+        <TabScreen/>
     </>
   );
 };
